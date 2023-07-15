@@ -5,7 +5,7 @@ import { headerTitle } from "./Header.module.scss"
 const Header = () => {
   return (
     <div>
-      <h1 className="header-title">Header</h1>
+      <h1 className={headerTitle}>Header</h1>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/blogs">Blogs</Link>
